@@ -1,0 +1,128 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f1f7fc;
+    color: #333;
+}
+
+.container {
+    position: relative;
+    min-height: 100vh;
+    background-color: #f1f7fc;
+    background-image: url('clouds.svg');
+    background-size: cover;
+    background-position: center;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px;
+    background: rgba(255, 255, 255, 0.7);
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+
+.logo h1 {
+    font-size: 3rem;
+    color: #003366;
+}
+
+.logo p {
+    font-size: 1.2rem;
+    color: #006699;
+}
+
+.cta-button {
+    padding: 12px 20px;
+    background-color: #006699;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 1rem;
+}
+
+.cta-button:hover {
+    background-color: #004466;
+}
+
+.clouds {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 300px;
+    background: url('clouds.svg') repeat-x;
+    opacity: 0.5;
+}
+
+.services {
+    text-align: center;
+    padding: 100px 20px;
+    background-color: #fff;
+}
+
+.services h2 {
+    font-size: 2.5rem;
+    color: #003366;
+    margin-bottom: 30px;
+}
+
+.service-cards {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
+
+.service-card {
+    background-color: #e6f2ff;
+    padding: 30px;
+    border-radius: 8px;
+    width: 300px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.service-card h3 {
+    font-size: 1.8rem;
+    color: #003366;
+    margin-bottom: 15px;
+}
+
+.service-card p {
+    font-size: 1rem;
+    color: #555;
+    margin-bottom: 20px;
+}
+
+.service-button {
+    padding: 10px 20px;
+    background-color: #006699;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 1rem;
+}
+
+.service-button:hover {
+    background-color: #004466;
+}
+
+.premium {
+    background-color: #004466;
+}
+
+.footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #003366;
+    color: white;
+}
+
